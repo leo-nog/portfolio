@@ -1,0 +1,61 @@
+.education {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.education .time {
+    margin-top: -2px;
+    font-weight: 300;
+    margin-bottom: 0px;
+    color: #ff9a5b;
+    font-size: 11pt;
+    min-width: fit-content;
+}
+
+@media (min-width: 1025px) {
+    .education .time {
+        width: 22vh;
+    }
+}
+@media (max-width: 1024px) {
+    .education .time {
+        width: 30vh;
+    }
+}
+@media (max-width: 767px) {
+    .education .time {
+        width: 60vh;
+    }
+}
+@media (max-width: 467px) {
+    .education {
+        display: block;
+        margin-bottom: 40px;
+    }
+    .education .time {
+        width: 100%;
+    }
+    .education .infos {
+        width: 100%;
+    }
+}
+
+.education .title {
+    margin-top: -4px;
+    font-size: 11pt;
+    line-height: 27px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.education .title hr {
+    border: none;
+    height: 0.1px;
+    background-color: #999;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.education .content span {
+    color: #fff;
+}
