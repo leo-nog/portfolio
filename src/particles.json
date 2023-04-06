@@ -2,7 +2,7 @@
   "background": {
     "color": "#090909"
   },
-  "fpsLimit": 90,
+  "fpsLimit": 144,
   "interactivity": {
     "events": {
       "onClick": {
@@ -62,7 +62,7 @@
       "density": {
         "enable": true
       },
-      "value": 180
+      "value": 120
     },
     "opacity": { 
       "value": 0.5
