@@ -7,6 +7,7 @@ const MySkills = () => {
         'Laravel',
         'React.js',
         'MySQL',
+        'Redis',
         'JavaScript',
         'GitHub',
     ]
